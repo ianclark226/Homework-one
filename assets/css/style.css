@@ -5,9 +5,10 @@
 
 h1 {
     color: white;
-    font-size: 65px;
+    font-size: 55px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 #first {
@@ -44,6 +45,11 @@ h3 {
     
 }
 
+p {
+    color: #777777;
+    font-family: arial;
+}
+
 
 #second {
 
@@ -68,9 +74,10 @@ body {
         left: 50%;
         transform: translate(-50%,-50%);
         width: 700px;
+        height: 700px;
         padding:20px;
         box-sizing: border-box;
-        border-radius: 8px;
+        border-color:#dddddd;
         display: flex;
         box-shadow: 0 0 20px #000000b3;
         
@@ -125,11 +132,12 @@ body {
 nav {
     height: 100px;
     width: 1000px;
-    background-color: #fff;
+    background-color :#ffffff;
 }
 
 ul {
     margin-left: 0px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     
 }
    
@@ -138,18 +146,28 @@ ul li {
     display: inline-block;
     float: right;
     line-height: 100px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
    ul li a {
        display: block;
        text-decoration: none;
        font-size: 14px;
        font-family: arial;
-       color: #1e1e1e;
+       color: #777777;
        padding: 0 20px;
+   }
+
+   li {
+       font-family: 'Georgia', Times, 'Times New Roman', serif;
    }
 
    ul li a:hover {
        color: #4aaaa5;
+   }
+
+   #port {
+       border-left: 1px solid left right;
+
    }
 
    #footer {
@@ -179,13 +197,13 @@ ul li {
        width: 85%;
        max-width: 600px;
        position: absolute;
-       background: #f1f1f1;
+       background: #ffffff;
        top: 50%;
        left: 50%;
        transform: translate(-50%, -50%);
        padding: 30px 40px;
        box-sizing: border-box;
-       border-radius: 8px;
+       border-color:#dddddd;
        text-align: left;
        box-shadow: 0 0 20px #000000b3;
 
@@ -200,7 +218,7 @@ ul li {
    }
 
    .txtb{
-       border: 1px solid gray;
+       border: 1px solid #777777;
        margin: 8px 0;
        padding: 12px 18px;
        border-radius: 8px;
@@ -250,7 +268,7 @@ ul li {
     transform: translate(-50%, -0%);
     padding: 30px 40px;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-color: #dddddd;
     text-align: left;
     box-shadow: 0 0 20px #000000b3;
     
