@@ -164,19 +164,12 @@ ul li {
       border-top: 5px solid #4aaaa5;
       position: fixed;
       bottom: 0px;
+      z-index: 1;
        
        
    }
 
-   #line {
-    margin: 50 auto 0 10px;
-    width: 1198px;
-    background-color: #4aaaa5;
-    height: 10px;
-    margin-top: 790px;
-    position: absolute;
-
-   }
+   
 
    h4 {
        padding: 0 30px;
@@ -247,50 +240,126 @@ ul li {
 
    .portfoliobox{
     width: 85%;
-    max-width: 1000px;
+    
+    width: 1000px;
+    height: 850px;
     position: absolute;
     background: #f1f1f1;
     top: 35%;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, -0%);
     padding: 30px 40px;
     box-sizing: border-box;
     border-radius: 8px;
     text-align: left;
     box-shadow: 0 0 20px #000000b3;
-    z-index: 2;
+    
     
    }
 
-   .portfoliobox img {
-
-    width: 200px;
-    height: auto;
-   }
+   
 
  
-   .underline-small {
-       color: green;
-       display: inline-block;
-        position: relative;
-       
-
-   }
-
-   .underline-small::after{
-       content: "";
-       height: 2px;
-       width:20%;
-       background: red;
-       position: absolute;
-       left:calc(50% - 10%);
-       bottom:0;
-   }
-
+ 
    img {
        height: 200px;
        width: 200px;
    }
+
+   
+   #port1 {
+       position: relative;
+       top: -330px;
+       left: 20px;
+       padding: 0px;
+       background-color: #4aaaa5;
+       height: 50px;
+       width: 250px;
+       text-align: center;
+       line-height: 50px;
+       color: white;
+       font-size: 30px;
+   }
+
+   #port2 {
+    position: relative;
+    top: -380px;
+    left: 314px;
+    padding: 0px;
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+   }
+
+   #port3 {
+    position: relative;
+    top: -185px;
+    left: 20px;
+    padding: 0px;
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+#port4 {
+    position: relative;
+    top: -480px;
+    left: 608px;
+    padding: 0px;
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+#port5 {
+    position: relative;
+    top: -285px;
+    left: 314px;
+    padding: 0px;
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.portfoliobox img {
+padding: 20px;
+    width: 250px;
+    height: 200px;
+   
+   }
+
+  
+      
+       
+      
+
+       
+
+
+       
+       
+       
+   
+
+
 
   
 
