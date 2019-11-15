@@ -25,9 +25,18 @@ h1 {
 
 
 h2 {
-
+    padding: 15px;
    color:#4aaaa5;
    font-size: 50px;
+   border-bottom-style: solid;
+   border-bottom-width: bold;
+   border-bottom-color: #dddddd;
+
+
+
+
+
+  
 }
 
 h3 {
@@ -39,7 +48,7 @@ h3 {
 #second {
 
     margin: 50 auto 0 100px;
-    width: 1200px;
+    width: 1275px;
     background-color: white;
     height: 100px;
     margin-top: -0px;
@@ -104,7 +113,10 @@ body {
     .box img {
 
         float:left;
+
     }
+
+   
 
   
 
@@ -141,21 +153,24 @@ ul li {
    }
 
    #footer {
-       background-color:#666666;
-       position: relative;
-       height: 75px;
-       margin-top: 800px;
-       clear: both;
-       text-align: center;
-       padding: -20px solid #4aaaa5;
-       flex-shrink: 0;
+       background: linear-gradient(141deg, #666666 0%,#666666 51%,#666666 75%);
+      height: 70px;
+      width: 100%;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      border-top: 5px solid #4aaaa5;
+      position: fixed;
+      bottom: 0px;
        
        
    }
 
    #line {
     margin: 50 auto 0 10px;
-    width: 1200px;
+    width: 1198px;
     background-color: #4aaaa5;
     height: 10px;
     margin-top: 790px;
@@ -206,8 +221,6 @@ ul li {
        font-size: 14px;
        
        
-
-
    }*/
 
    .textb input,.textb textarea{
@@ -245,6 +258,7 @@ ul li {
     border-radius: 8px;
     text-align: left;
     box-shadow: 0 0 20px #000000b3;
+    z-index: 2;
     
    }
 
@@ -254,13 +268,31 @@ ul li {
     height: auto;
    }
 
-   .img-ian {
-       width: 100px;
-       height: 100px;
-       background-image: url(assets/images/profile_pic.png);
-       background-size: 100%;
+ 
+   .underline-small {
+       color: green;
+       display: inline-block;
+        position: relative;
+       
+
+   }
+
+   .underline-small::after{
+       content: "";
+       height: 2px;
+       width:20%;
+       background: red;
+       position: absolute;
+       left:calc(50% - 10%);
+       bottom:0;
+   }
+
+   img {
+       height: 200px;
+       width: 200px;
    }
 
   
+
 
 
